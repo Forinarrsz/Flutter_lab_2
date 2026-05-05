@@ -1,17 +1,26 @@
-# first_flutter_app
+# Flutter. Лабораторная работа №2 — Знакомство с Flutter
 
-A new Flutter project.
+Проект демонстрирует базовые концепции фреймворка: декларативный UI, дерево виджетов, работу с `MaterialApp`, `Scaffold`, стилизацию интерфейса и градиентами, а также управление состоянием через `setState()`.
 
-## Getting Started
+## Информация об авторе
+- **ФИО:** Шувалова А.Е.
+- **Группа:** ИСП-231
 
-This project is a starting point for a Flutter application.
+## Стек и версии
+- **Flutter:** Flutter 3.41.6 
+- **Dart:** Dart 3.11.4
+- **Платформа:** Web (Google Chrome)
+- **IDE:** VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Как запустить
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что изучили
+1. Основы кроссплатформенной разработки на Flutter и разницу между `StatelessWidget` и `StatefulWidget`.
+2. Структуру Flutter-проекта, роль `pubspec.yaml` и автоматическую генерацию платформенных папок.
+3. Настройку VS Code для Dart, работу с `Hot Reload` / `Hot Restart` и Flutter DevTools.
+4. Построение UI через дерево виджетов: `MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`, а также работу с градиентами и стилями.
+5. Базовые команды Git и публикацию проекта в публичный репозиторий на GitHub.
